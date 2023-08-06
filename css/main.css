@@ -259,8 +259,8 @@ footer .wave_s #wave-04 {
 }
 footer .social_icon .container {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 5px;
   padding-top: 30px;
   padding-bottom: 30px;
   direction: rtl;
@@ -268,7 +268,7 @@ footer .social_icon .container {
 @media (max-width: 767px) {
   footer .social_icon .container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
 }

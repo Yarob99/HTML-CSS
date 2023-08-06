@@ -107,8 +107,8 @@ footer {
         .container {
             // ==================
             display: grid;
-            grid-template-columns: repeat(8, 1fr);
-            gap: 20px;
+            grid-template-columns: repeat(9, 1fr);
+            gap: 5px;
             // ==================
             padding-top: 30px;
             padding-bottom: 30px;
@@ -119,7 +119,7 @@ footer {
             // media==================
             @media (max-width: 767px) {
                 display: grid;
-                grid-template-columns: repeat(4, 1fr);
+                grid-template-columns: repeat(3, 1fr);
                 gap: 20px;
             }
 
